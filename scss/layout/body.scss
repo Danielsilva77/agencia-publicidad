@@ -5,11 +5,10 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
-    color: white;
+    color: $color-terciario;
     box-sizing: border-box;
     img:hover{
         scale: 0.8;
         transition: 1s;
-    }
-   
+    }   
 }

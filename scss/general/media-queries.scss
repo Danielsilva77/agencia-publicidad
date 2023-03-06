@@ -1,0 +1,53 @@
+@media (max-width:576px) {
+    body {
+    background-image: url("../imagenes/fondo42.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 100px;
+    }
+    .footer-imagenes img {
+        height: 40px;
+        border-radius: 50%;
+        padding: 1px 20px;
+    }
+    
+    
+    .contenedor-portfolio__tarjetas {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        width: 100%;
+        margin-top: 20px;
+    
+    }
+    .contenedor-portfolio__tarjetas img {
+        display: flex;
+        justify-content:center;
+        height: 100px;
+        width: 30%;
+    }
+    .contenedor-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 800px;
+    
+    }
+
+    .form {
+        width: 350px;
+        margin-top: 70px;
+        
+    
+    }
+}
+

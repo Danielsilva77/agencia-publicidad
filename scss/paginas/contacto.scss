@@ -17,7 +17,7 @@
             padding: 7px;
             margin: 7px;
             border-bottom: 3px solid #5dd;
-            background-color: rgba(128, 128, 128, 0.5);
+            background-color: $color-secundario;
         }
         .form__input-textarea {
             height: 100px;
@@ -25,10 +25,10 @@
             padding: 7px;
             margin: 7px;
             border-bottom: 3px solid #5dd;
-            background-color: rgba(128, 128, 128, 0.507);
+            background-color: $color-secundario;
         }
         .form__input-submit{
-            background-color: rgba(128, 128, 128, 0.5);
+            background-color: $color-secundario;
             color: white;
             height: 30px;
             width: 100%;
@@ -36,7 +36,7 @@
             margin: 7px;
             border-bottom: 3px solid #5dd;
             &:hover {
-                background-color: white;
+                background-color: $color-terciario;
                 color:black;
             }
         }

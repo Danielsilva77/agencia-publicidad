@@ -1,8 +1,8 @@
 
 footer {
     .contenedor-footer {
-    background-color: rgba(128, 128, 128, 0.171);
-    color: white;
+    background-color: $color-secundario;
+    color: $color-terciario;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
