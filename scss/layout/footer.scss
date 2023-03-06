@@ -1,0 +1,22 @@
+
+footer {
+    .contenedor-footer {
+    background-color: rgba(128, 128, 128, 0.171);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 120px;
+    justify-content: center ;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 100%;
+    }
+    .footer-imagenes img {
+    height: 50px;
+    border-radius: 50%;
+    padding: 1px 20px;
+    }
+}

@@ -1,0 +1,27 @@
+
+.contenedor-portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 550px;
+    .contenedor-portfolio__tarjetas {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 400px;
+        width: 300px;
+        margin-top: 50px;
+        img {
+            display: flex;
+            justify-content:center;
+            height: 200px;
+            width: 200px;
+        }
+    
+    }
+}
+
+
+
