@@ -1,11 +1,14 @@
 
+
+
 .contenedor-portfolio {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: 550px;
-    .contenedor-portfolio__tarjetas {
+
+.contenedor-portfolio__tarjetas {
         display: flex;
         flex-direction: column;
         justify-content:center;
@@ -20,8 +23,9 @@
             width: 200px;
         }
     
-    }
 }
+}
+
 
 
 

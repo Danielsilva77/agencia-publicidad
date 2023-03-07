@@ -1,18 +1,19 @@
-
 .contenedor-servicios {
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
     height: 500px;
-    .titulo-servicios {
+
+
+.titulo-servicios {
         text-align: center;
             width: 100%;
             height: 100px;
             margin-top: 20px;
-        }
+}
 
-    .tarjetas-planes{
+.tarjetas-planes{
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
@@ -27,16 +28,23 @@
             background-color: $color-primario;
             
             .imagen-planes {
-                width: 150px;
+                width: 100%;
                 height: 150px;
                 border-radius: 5px;
                 text-align: center;
+                img {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 5px;
+                    text-align: center;
+
+                }
             }
             &:hover {
                 scale: 0.8;
                 transition: 1s;
             }
-        }  
+}  
 }
 
 
