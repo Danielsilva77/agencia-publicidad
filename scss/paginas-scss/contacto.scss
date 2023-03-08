@@ -13,28 +13,19 @@
         text-align: center;
         padding: 30px;
         .form__input {
-            width: 100%;
-            padding: 7px;
-            margin: 7px;
-            border-bottom: 3px solid #5dd;
+            @include width-padding-margin-border;
             background-color: $color-secundario;
         }
         .form__input-textarea {
             height: 100px;
-            width: 100%;
-            padding: 7px;
-            margin: 7px;
-            border-bottom: 3px solid #5dd;
+            @include width-padding-margin-border; 
             background-color: $color-secundario;
         }
         .form__input-submit{
+            @include width-padding-margin-border;
             background-color: $color-secundario;
             color: white;
             height: 30px;
-            width: 100%;
-            padding: 7px;
-            margin: 7px;
-            border-bottom: 3px solid #5dd;
             &:hover {
                 background-color: $color-terciario;
                 color:black;

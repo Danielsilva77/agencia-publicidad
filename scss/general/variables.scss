@@ -1,0 +1,10 @@
+$color-primario: rgba(0, 0, 0, 0.5);
+$color-secundario: rgba(128, 128, 128, 0.5);
+$color-terciario: white;
+
+@mixin width-padding-margin-border {
+    width: 100%;
+    padding: 7px;
+    margin: 7px;
+    border-bottom: 3px solid #5dd;
+}
