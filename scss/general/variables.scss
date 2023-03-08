@@ -2,7 +2,7 @@ $color-primario: rgba(0, 0, 0, 0.5);
 $color-secundario: rgba(128, 128, 128, 0.5);
 $color-terciario: white;
 
-@mixin width-padding-margin-border {
+@mixin width-padding-margin-border-bottom {
     width: 100%;
     padding: 7px;
     margin: 7px;

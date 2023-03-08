@@ -1,5 +1,4 @@
 
-
 .contenedor-contacto {
     display: flex;
     flex-direction: row;
@@ -13,16 +12,16 @@
         text-align: center;
         padding: 30px;
         .form__input {
-            @include width-padding-margin-border;
+            @include width-padding-margin-border-bottom;
             background-color: $color-secundario;
         }
         .form__input-textarea {
             height: 100px;
-            @include width-padding-margin-border; 
+            @include width-padding-margin-border-bottom; 
             background-color: $color-secundario;
         }
         .form__input-submit{
-            @include width-padding-margin-border;
+            @include width-padding-margin-border-bottom;
             background-color: $color-secundario;
             color: white;
             height: 30px;
@@ -38,6 +37,11 @@
         margin-top: 60px;
     }
     
+}
+@media (max-width:576px) {
+    .contenedor-contacto {
+        flex-direction: column;
+    }
 }
 
 
