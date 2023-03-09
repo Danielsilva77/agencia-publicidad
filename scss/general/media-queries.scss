@@ -37,6 +37,7 @@
     }
     .contenedor-contacto {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         height: 800px;
