@@ -170,6 +170,7 @@ header {
 .contenedor-contacto {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   height: 700px;
@@ -207,6 +208,14 @@ header {
     width: 100%;
     border-radius: 10px;
     margin-top: 60px; }
+  @media only screen and (max-width: 576px) {
+    .contenedor-contacto .contenedor-contacto {
+      flex-direction: column;
+      justify-content: center;
+      height: 800px; }
+    .contenedor-contacto .form {
+      width: 350px;
+      margin-top: 70px; } }
 
 @media (max-width: 576px) {
   body {
@@ -234,13 +243,4 @@ header {
     display: flex;
     justify-content: center;
     height: 100px;
-    width: 30%; }
-  .contenedor-contacto {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    height: 800px; }
-  .form {
-    width: 350px;
-    margin-top: 70px; } }
+    width: 30%; } }

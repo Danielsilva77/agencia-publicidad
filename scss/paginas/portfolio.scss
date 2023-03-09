@@ -7,8 +7,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: 550px;
-
-.contenedor-portfolio__tarjetas {
+    .contenedor-portfolio__tarjetas {
         display: flex;
         flex-direction: column;
         justify-content:center;
@@ -22,8 +21,7 @@
             height: 200px;
             width: 200px;
         }
-    
-}
+    }
 }
 
 

@@ -2,6 +2,7 @@
 .contenedor-contacto {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 700px;
@@ -36,8 +37,21 @@
         border-radius: 10px;
         margin-top: 60px;
     }
+    @media only screen and (max-width:576px) {
+        .contenedor-contacto {
+            flex-direction: column;
+            justify-content: center;
+            height: 800px;
+        }
+    
+        .form {
+            width: 350px;
+            margin-top: 70px;
+        }
+    }
     
 }
+
 
 
 
