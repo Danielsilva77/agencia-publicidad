@@ -173,7 +173,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 700px;
+  height: 800px;
   width: 100%; }
   .contenedor-contacto .form {
     width: 500px;
@@ -212,10 +212,14 @@ header {
     .contenedor-contacto .contenedor-contacto {
       flex-direction: column;
       justify-content: center;
-      height: 800px; }
+      height: 700px; }
     .contenedor-contacto .form {
       width: 350px;
-      margin-top: 70px; } }
+      margin-top: 70px; }
+    .contenedor-contacto .form-mapa iframe {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 60px; } }
 
 @media (max-width: 576px) {
   body {
